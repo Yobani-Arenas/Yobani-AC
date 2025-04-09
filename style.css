@@ -1,3 +1,6 @@
+body {
+    text-align: center;
+}
 /* General styles */
 body {
     font-family: Arial, sans-serif;
@@ -6,6 +9,17 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+}
+
+/* Image styles */
+img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 /* Header styles */
