@@ -1,126 +1,268 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
+    <title>HOJA DE VIDA</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"      />
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <header>
-        <h1>WELCOME TO MY WEB PAGE</h1>
-        <nav>
-            <ul>
-                <a href="Sobre Mi">SOBRE MI</a>
-                <a href="Estudios">ESTUDIO</a>
-                <a href="Contacto">CONTACTO</a>
-            </ul>
-        </nav>
+    <div class="container-lg mb-5">
+        <div class="row shadow-lg rounded-4 overflow-hidden">
 
-        <main>
-            <img src="IMG/img1.jpeg" alt="Fotografia">
+            <!--Columna izquierda-->
+            <div class="col-md-4 bg-primary">
 
-            <section class="intro-section">
-                <h2>🎯 PERFIL PROFESIONAL</h2>
-                <p style="text-align: center;">Técnico en Sistemas con amplia experiencia en soporte técnico a equipos
-                    de cómputo e impresoras, <br> actualmente curso Ingeniería en Informática en la Universidad de
-                    Caldas. Me destaco por ser una persona proactiva, con excelentes habilidades para trabajar tanto
-                    individualmente como en equipo.</p>
-            </section>
+                <!--Imagen foro de perfil-->
+                <header class="text-center mb-4">
+                    <img src="IMG/img1.jpeg" alt="" class="img-fluid rounded-circle border border-4 border-white mb-3"
+                        alt="Foto de perfil">
 
-            <section class="article-section">
-                <h2>💼 EXPERIENCIA DESTACADA</h2>
-                <p style="text-align: center;">
-                    <li>preventivo y correctivo de equipos de cómputo.</li>
-                    <li>Diagnóstico y reparación de impresoras. </li>
-                    <li>Instalación y configuración de software y hardware. </li>
-                    <li>Atención al cliente y soporte remoto. </li>
-                    <li>Manejo de sistemas operativos Windows y Linux.</li>
-            </section>
+                    <!--titulo-->
+                    <h1 class="fw-bold mb-2 text-white"> YOBANI ARENAS CASTAÑO </h1>
+                    <h5 class="h5 text-light"> Desarrollador Web Junior</h5>
 
-            <section class="Formation-Academica-section">
-                <h2>🎓 FORMACIÓN ACADÉMICA</h2>
-                <p style="text-align: center;">
-                    🎓 Ingeniería en Informática
-                    Universidad de Caldas – En curso <br>
+                </header>
+                <section class=" mb-4">
+                    <h5 class="fw-bold mb-3 text-white"> <i class="fas fa-address-card me-2 text-white"></i>
+                        Contacto
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li class=mb-2>
+                            <i class="fas fa-phone me-2 text-white"></i> <!--icono y color-->
+                            <a href="https://wa.me/573024057857?text=I'm%20interested%20in%20your%20car%20for%20sale"
+                                class="text-white"> +573024057857</a>
+                        </li>
 
-                    🛠️ Técnico en Sistemas
-                    SENA – 2018</p>
-            </section>
+                        <li> <i class="fas fa-envelope me-2 text-white"></i> <!--icono y color-->
+                            <a href="arenascastanoy@gmail.com" target="_blank" class="text-white">
+                                arenascastanoy@gmail.com</a>
+                        </li>
 
-            <section class="skills-section">
-                <h2>🛠️ HABILIDADES TÉCNICAS</h2>
-                <p style="text-align: center;">
-                    <li>Soporte técnico a equipos de cómputo (presencial y remoto)</li>
-                    <li>Diagnóstico y reparación de impresoras</li>
-                    <li>Instalación y configuración de software y hardware</li>
-                    <li>Atención al cliente y soporte remoto</li>
-                    <li>Manejo de sistemas operativos Windows y Linux</li>
-                    <li>Redes básicas (cableado estructurado, configuración de routers)</li>
-                </p>
-            </section>
+                        <li class="text-white"> <i class="fas fa-map-marker-alt me-2 text-white"></i>
+                            <!--icono y color-->
+                            Manizales, Caldas
+                        </li>
 
-            <section class="habilidades-section">
-                <h2>💡 HABILIDADES BLANDAS</h2>
-                <p style="text-align: center;">
-                    <li>Trabajo en equipo</li>
-                    <li>Comunicación efectiva</li>
-                    <li>Resolución de problemas</li>
-                    <li>Adaptabilidad</li>
-                    <li>Proactividad</li>
-                    <li>Responsabilidad</li>
-                </p>
-            </section>
+                        <li> <i class="fa-brands fa-instagram me-2 text-white"> </i> <!--icono y color-->
+                            <a href="https://www.instagram.com/yobani_arenas_castano?igsh=MTNyb2tsMHc0ZzN0eg=="
+                                class="text-white">@YOBANI_ARENAS_CASTANO</a>
+                        </li>
 
-            <section class="Objetivo-Profesional-section">
-                <h2>📈 OBJETIVO PROFESIONAL</h2>
-                <p style="text-align: center;">
-                    Mi objetivo es seguir creciendo profesionalmente en el área de la informática, adquiriendo nuevos
-                    conocimientos y habilidades que me permitan desempeñarme de manera efectiva en el campo laboral.
-                    Estoy dispuesto a asumir nuevos retos y aprender de cada experiencia.
-                    <br>
-                    <br> Busco una oportunidad laboral que me permita aplicar mis conocimientos y habilidades en un
-                    entorno dinámico y desafiante, donde pueda contribuir al éxito de la empresa y seguir
-                    desarrollándome como profesional.
-                    <br>
-                    <br> Estoy interesado en trabajar en proyectos innovadores que me permitan aprender y crecer, así
-                    como en un ambiente colaborativo donde pueda compartir mis conocimientos y aprender de mis
-                    compañeros.
-                </p>
-            </section>
+                        <li> <i class="fab fa-github me-2 text-white"></i> <!--icono y color-->
+                            <a href="https://github.com/julivalencia11" target="_blank"
+                                class="text-white">github.com/julivalencia11
+                            </a>
+                        </li>
 
-            <section class="puedes-section">
-                <h2>📞 CONTACTO</h2>
-                <p style="text-align: center;">Si deseas saber más sobre mí, no dudes en contactarme a través de mis
-                    redes sociales o por correo electrónico. Estoy abierto a nuevas oportunidades laborales.</p>
-                <p style="text-align: center;">Puedes encontrarme en:</p>
-                <li>📧 Email: arenascastanoy@gmail.com</li>
-                <li>📱 WhatsApp: 3024057857</li>
-                <li>🔗 LinkedIn: Yobani Arenas Castaño</li>                
-            </section>        
+                    </ul>
 
-            <section class="contact-section">
-                <h2>contactame</h2>
-                <form>
-                    <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="name"><br><br>
+                </section>
 
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email"><br><br>
+                <section class="mb-4">
+                    <h5 class="fw-bold mb-3 text-white"> <i class="fas fa-code me-2 text-white"></i>Habilidades</h5>
+                    <!--Para otra habilidad HTML/CSS-->
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between text-white">
+                            <span>HTML/CSS</span>
+                            <span>70%</span>
+                        </div>
 
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-                </form>
-            </section>
-            <button type="submit">Submit</button>
-        </main>
 
-        <footer>
-            <p>&copy; My Web Page 2025 Yobani Arenas Castaño</p>
-        </footer>
-    </header>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-white" role="progressbar" style="width: 70%;"></div>
+                        </div>
+
+                    </div>
+
+                    <!--Para otra habilidad INGLES-->
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between text-white">
+                            <span>Ingles</span>
+                            <span>20%</span>
+                        </div>
+
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-white" role="progressbar" style="width: 20%"></div>
+                        </div>
+
+                    </div>
+
+                    <!--Para otra habilidad Java Script-->
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between text-white">
+                            <span>JavaScript</span>
+                            <span>60%</span>
+                        </div>
+
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-white" role="progressbar" style="width: 60%"></div>
+                        </div>
+
+                    </div>
+
+                    <!--Para otra habilidad PYTHON-->
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between text-white">
+                            <span>Python</span>
+                            <span>20%</span>
+                        </div>
+
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-white" role="progressbar" style="width: 20%;"></div>
+
+                        </div>
+                    </div>
+
+                    <!--Para otra habilidad JAVA-->
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between text-white">
+                            <span>Java</span>
+                            <span>60%</span>
+                        </div>
+
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-white" role="progressbar" style="width: 60%;"></div>
+
+                        </div>
+                    </div>
+
+                    <!--Para otra habilidad DISEÑO-->
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between text-white">
+                            <span>Diseño</span>
+                            <span>50%</span>
+
+                        </div>
+
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-white" role="progressbar" style="width: 50%;"></div>
+                        </div>
+                    </div>
+
+                    <!--Para otra habilidad TRABAJO EN EQUIPO-->
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between text-white">
+                            <span>Trabajo en equipo</span>
+                            <span>95%</span>
+                        </div>
+
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-white" role="progressbar" style="width: 95%;"></div>
+                        </div>
+                    </div>
+
+                    <!--Para otra habilidad COMUNICACION -->
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between text-white">
+                            <span>Comunicacion Asertiva</span>
+                            <span>100%</span>
+                        </div>
+
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-white" role="progressbar" style="width: 100%;"></div>
+                        </div>
+                    </div>
+
+                    <!--Para otra habilidad LIDERAZGO-->
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between text-white">
+                            <span>Liderazgo</span>
+                            <span>100%</span>
+                        </div>
+
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-white" role="progressbar" style="width: 100%;"></div>
+
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+            <!--Columna derecha-->
+            <div class="col-md-8 bg-light p-4">
+                <section class="mb-5">
+                    <h4 id="text-primary" class="fw-bold mb-4"> <i class="fas fa-briefcase me-2"></i>
+                        Experiencia Laboral</h4>
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold">Técnico en Sistemas</h4>
+                            <h5 class="card-subtitle mb-2 text-muted small">2019 - Actualidad</h5>
+                            <h6 class="text-primary">Empresa Tecnológica</h6>
+                            <ul>
+                                <li>Soporte técnico a equipos de cómputo (presencial y remoto)</li>
+                                <li>Diagnóstico y reparación de impresoras</li>
+                                <li>Instalación y configuración de software y hardware</li>
+                                <li>Atención al cliente y soporte remoto</li>
+                                <li>Manejo de sistemas operativos Windows</li>
+                                <li>Redes básicas (cableado estructurado, configuración de routers)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Segunda experiencia -->
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold">Desarrollador Front-End Junior</h4>
+                            <h5 class="card-subtitle mb-2 text-muted small">2020 - Actualidad</h5>
+                            <h6 class="text-primary">Empresa Tecnológica</h6>
+                            <ul>
+                                <li>Trabajo en equipo</li>
+                                <li>Comunicación efectiva</li>
+                                <li>Resolución de problemas</li>
+                                <li>Adaptabilidad</li>
+                                <li>Proactividad</li>
+                                <li>Responsabilidad</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                </section>
+
+                <section class="mb-5">
+                    <h4 id="text-primary" class="fw-bold mb-4"> <i class="fas fa-graduation-cap me-2"></i>Formacion
+                        Academica</h4>
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title"> Pregrado Ingenieria de Informatica</h4>
+                            <h5 class="card-subtitle mb-2 text-muted small ">2024 - 2025 Actualizado</h5>
+                            <h6 class="text-primary">Universidad de Caldas</h6>
+                            <ul>
+                                <li>Desarrollo de software</li>
+                                <li>Arquitectura de software</li>
+                                <li>Desarrollo web</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Segunda experiencia -->    
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title"> Técnico en Sistemas</h4>
+                            <h5 class="card-subtitle mb-2 text-muted small ">2018 Actualizado</h5>
+                            <h6 class="text-primary">SENA seccional Caldas.</h6>
+                            <ul>
+                                <li>Mantenimiento de hardware y software</li>
+                                <li>Redes de datos</li>
+                                <li>Herramientas ofimáticas y colaborativas</li>
+                                <li>Soporte técnico</li>
+                                <li>Competencias transversales</li>
+                            </ul>
+                        </div>
+                    </div>
+                     
+                    <!-- Bootstrap JS -->
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
